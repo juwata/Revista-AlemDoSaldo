@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Além do saldo — uma revista digital sobre pobreza, desigualdade, crédito e educação financeira no Brasil.">
+  <meta name="theme-color" content="#171713">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23171713'/%3E%3Cpath d='M10 49 25 15h14l15 34H42l-3-8H25l-3 8H10Zm19-18h6l-3-9-3 9Z' fill='%23e85b3f'/%3E%3C/svg%3E">
+  <title>Além do saldo — Combate à Pobreza</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
+
+  <header class="site-header" aria-label="Cabeçalho da publicação">
+    <a class="brand" href="#inicio" aria-label="Além do saldo, voltar ao início">
+      <span class="brand-mark" aria-hidden="true">A/</span>
+      <span>Além do saldo</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="chapter-nav">
+      <span>Menu</span><span aria-hidden="true">+</span>
+    </button>
+    <nav class="chapter-nav" id="chapter-nav" aria-label="Navegação por capítulos">
+      <a href="#editorial">Editorial</a>
+      <a href="#pobreza">Pobreza</a>
+      <a href="#renda">Renda</a>
+      <a href="#consumo">Consumo</a>
+      <a href="#juventude">Juventude</a>
+      <a href="#intervencao">Caminhos</a>
+      <a href="#sumario">Sumário</a>
+      <a href="#membros">Membros</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-one" data-parallax="-0.025" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-two" data-parallax="0.018" aria-hidden="true"></div>
+      <p class="eyebrow hero-kicker reveal">Sociologia aplicada · edição 01</p>
+      <h1 id="hero-title" class="hero-title">
+        <span class="title-line"><span>Pobreza não é</span></span>
+        <span class="title-line accent"><span>falta de esforço.</span></span>
+        <span class="title-line"><span>É falta de margem.</span></span>
+      </h1>
+      <div class="hero-bottom reveal">
+        <p class="hero-deck">Privação de renda, tempo, serviços e oportunidades limita escolhas antes mesmo de uma decisão financeira existir.</p>
+        <a class="scroll-cue" href="#sumario">
+          <span aria-hidden="true">↓</span>
+          <span>Começar a leitura</span>
+        </a>
+      </div>
+      <div class="hero-index" aria-hidden="true"><span>23,1</span><small>% em 2024</small></div>
+    </section>
+
+    <section class="inside-content section-light" id="sumario" aria-labelledby="summary-title">
+      <div class="inside-heading section-reveal">
+        <p class="chapter-number">Sumário / navegação</p>
+        <h2 id="summary-title">Sete entradas para compreender o que existe além do saldo.</h2>
+      </div>
+      <ol class="summary-list section-reveal">
+        <li><a href="#editorial"><span class="summary-number">00 / Editorial</span><div><h3>Planejar ajuda</h3><p>Por que condições concretas importam tanto quanto decisões individuais.</p></div><span class="summary-arrow" aria-hidden="true">↓</span></a></li>
+        <li><a href="#pobreza"><span class="summary-number">01 / Pobreza</span><div><h3>Viver em pobreza</h3><p>Renda, privações e os limites de uma definição exclusivamente monetária.</p></div><span class="summary-arrow" aria-hidden="true">↓</span></a></li>
+        <li><a href="#renda"><span class="summary-number">02 / Margem</span><div><h3>Renda, tempo e escolha</h3><p>Como despesas rígidas e imprevistos reduzem o espaço para decidir.</p></div><span class="summary-arrow" aria-hidden="true">↓</span></a></li>
+        <li><a href="#consumo"><span class="summary-number">03 / Consumo</span><div><h3>Comprar e pertencer</h3><p>Consumo, indústria cultural, pertencimento e endividamento.</p></div><span class="summary-arrow" aria-hidden="true">↓</span></a></li>
+        <li><a href="#juventude"><span class="summary-number">04 / Juventude</span><div><h3>Aprender cedo</h3><p>O papel da educação financeira na autonomia de crianças e jovens.</p></div><span class="summary-arrow" aria-hidden="true">↓</span></a></li>
+        <li><a href="#educacao"><span class="summary-number">05 / Escola</span><div><h3>Educação no currículo</h3><p>Uma abordagem transversal que conecta diferentes disciplinas.</p></div><span class="summary-arrow" aria-hidden="true">↓</span></a></li>
+        <li><a href="#intervencao"><span class="summary-number">06 / Caminhos</span><div><h3>Conhecimento para decidir</h3><p>Propostas de intervenção para ampliar repertório, proteção e margem.</p></div><span class="summary-arrow" aria-hidden="true">↓</span></a></li>
+      </ol>
+    </section>
+
+    <section class="inside-content section-light members-section" id="membros" aria-labelledby="members-title">
+      <div class="inside-heading section-reveal">
+        <p class="chapter-number">Membros / equipe</p>
+        <h2 id="members-title">Seis perspectivas, uma investigação coletiva.</h2>
+      </div>
+      <div class="members-grid section-reveal">
+        <figure class="member-card"><div class="member-photo"><img src="assets/membros/julia-watanabe.png" alt="Retrato de Júlia Watanabe" width="500" height="500"></div><figcaption><span class="member-index">01</span><h3 class="member-name">Júlia Watanabe</h3></figcaption></figure>
+        <figure class="member-card"><div class="member-photo"><img src="assets/membros/lucas-ramos.png" alt="Retrato de Lucas Ramos" width="500" height="500"></div><figcaption><span class="member-index">02</span><h3 class="member-name">Lucas Ramos</h3></figcaption></figure>
+        <figure class="member-card"><div class="member-photo"><img src="assets/membros/lucas-fabiano.png" alt="Retrato de Lucas Fabiano" width="500" height="500"></div><figcaption><span class="member-index">03</span><h3 class="member-name">Lucas Fabiano</h3></figcaption></figure>
+        <figure class="member-card"><div class="member-photo"><img src="assets/membros/marcella-liberal.png" alt="Retrato de Marcella Liberal" width="500" height="500"></div><figcaption><span class="member-index">04</span><h3 class="member-name">Marcella Liberal</h3></figcaption></figure>
+        <figure class="member-card"><div class="member-photo"><img src="assets/membros/nicolas-vlad.png" alt="Retrato de Nicolas Vlad" width="500" height="500"></div><figcaption><span class="member-index">05</span><h3 class="member-name">Nicolas Vlad</h3></figcaption></figure>
+        <figure class="member-card"><div class="member-photo"><img src="assets/membros/verena-marostica.png" alt="Retrato de Verena Marostica" width="500" height="500"></div><figcaption><span class="member-index">06</span><h3 class="member-name">Verena Marostica</h3></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="editorial section-light" id="editorial" aria-labelledby="editorial-title">
+      <div class="section-heading section-reveal">
+        <p class="chapter-number">Editorial / 00</p>
+        <h2 id="editorial-title">Planejar ajuda.<br>Ter condições para planejar muda tudo.</h2>
+      </div>
+      <div class="editorial-grid section-reveal">
+        <p class="lead dropcap">A vulnerabilidade econômica brasileira não pode ser explicada apenas por escolhas individuais. Quando a renda é insuficiente, o trabalho é instável e despesas básicas não esperam, o crédito deixa de financiar projetos e passa a sustentar a sobrevivência.</p>
+        <div class="editorial-copy">
+          <p>A educação financeira amplia a capacidade de compreender juros, crédito e planejamento. A lacuna é concreta: no PISA 2022, 45% dos estudantes brasileiros de 15 anos ficaram abaixo do nível básico de letramento financeiro. Mas conhecimento, sozinho, não cria a renda que falta nem reduz o custo de um imprevisto.</p>
+          <p>Jessé Souza ajuda a deslocar o debate do mérito individual para a reprodução das desigualdades de classe. Adorno e Horkheimer, por sua vez, explicam como a cultura de massa transforma consumo e pertencimento em promessas difíceis de separar. Juntos, esses repertórios mostram duas engrenagens: oportunidades desiguais de partida e pressões sociais que incidem de modo diferente sobre cada orçamento.</p>
+          <p>Por isso, ensinar finanças sem ampliar educação de qualidade, trabalho digno e proteção social corre o risco de ensinar apenas a administrar a escassez. Autonomia real depende de conhecimento — e também de margem.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="opening-scene section-coral" aria-labelledby="scene-title">
+      <div class="scene-clock" aria-hidden="true">
+        <span>05:20</span><span>07:31</span><span>18:46</span><span>21:08</span>
+      </div>
+      <div class="scene-copy section-reveal">
+        <p class="eyebrow">Uma cena representativa</p>
+        <h2 id="scene-title">O dia começa antes do sol. A margem termina antes do mês.</h2>
+        <p>Esta não é a história de uma pessoa específica. É uma composição editorial baseada nas situações descritas na pesquisa: o transporte consome horas, as contas básicas disputam a renda e qualquer imprevisto exige adiar outra necessidade. Não falta cálculo. Falta espaço para o erro.</p>
+      </div>
+      <p class="scene-caption">Representação editorial — sem personagem, fala ou biografia inventados.</p>
+    </section>
+
+    <article class="feature-story">
+      <section class="chapter section-light" id="pobreza" aria-labelledby="pobreza-title">
+        <div class="chapter-head section-reveal">
+          <p class="chapter-number">Capítulo / 01</p>
+          <h2 id="pobreza-title">Viver em pobreza é ter menos caminhos disponíveis</h2>
+          <p class="chapter-intro">Pobreza é uma condição persistente de privação. A renda é parte da medida, mas a experiência inclui instabilidade, moradia, saúde, educação e o tempo possível para estudar, cuidar e descansar.</p>
+        </div>
+
+        <div class="poverty-shift section-reveal" role="img" aria-label="A pobreza caiu de 27,3 por cento em 2023 para 23,1 por cento em 2024; cerca de 8,6 milhões de pessoas deixaram essa condição.">
+          <div class="shift-year">
+            <p>2023</p>
+            <strong class="metric" data-count="27.3" data-decimals="1" data-suffix="%">27,3%</strong>
+            <div class="shift-line"><span style="--value: 27.3%"></span></div>
+          </div>
+          <div class="shift-arrow" aria-hidden="true">→</div>
+          <div class="shift-year current">
+            <p>2024</p>
+            <strong class="metric" data-count="23.1" data-decimals="1" data-suffix="%">23,1%</strong>
+            <div class="shift-line"><span style="--value: 23.1%"></span></div>
+          </div>
+          <p class="shift-note"><strong>≈ 8,6 milhões</strong> deixaram a condição no período. O avanço não significa que todas as famílias passaram a viver com segurança material.</p>
+          <p class="source">Fonte: IBGE, Síntese de Indicadores Sociais, dados de 2024.</p>
+        </div>
+
+        <div class="split-narrative section-reveal">
+          <div>
+            <p class="eyebrow">Tempo também é recurso</p>
+            <p>O Censo 2022 identificou cerca de <strong>1,3 milhão</strong> de pessoas que levavam mais de duas horas para chegar ao trabalho. O levantamento não informa a renda desses trabalhadores; ele mostra como trajetos longos podem reduzir descanso, convivência e formação — sem permitir concluir, isoladamente, quem é mais atingido.</p>
+            <p class="source">Fonte: IBGE, Censo Demográfico 2022, deslocamentos para trabalho.</p>
+          </div>
+          <figure class="time-figure">
+            <div class="time-track" aria-hidden="true">
+              <span class="time-origin">casa</span>
+              <span class="time-dot dot-a"></span><span class="time-dot dot-b"></span><span class="time-dot dot-c"></span>
+              <span class="time-destination">trabalho</span>
+            </div>
+            <strong>+ de 2h</strong>
+            <figcaption>Para cerca de 1,3 milhão de pessoas</figcaption>
+          </figure>
+        </div>
+
+        <div class="education-gap section-reveal">
+          <div class="gap-copy">
+            <p class="eyebrow">Escolaridade e renda</p>
+            <h3>A distância aparece antes do mercado de trabalho</h3>
+            <p>Em 2024, jovens de 18 a 29 anos no quarto mais pobre da distribuição de renda tinham, em média, 10,6 anos de estudo; no quarto mais rico, eram 13,5. Os dados indicam associação, não provam que a renda isoladamente cause a diferença.</p>
+            <p class="source">Fonte: IBGE, Síntese de Indicadores Sociais 2025 e PNAD Contínua; “A Educação no Brasil: entre metas e desigualdades” (2025b).</p>
+          </div>
+          <div class="bar-compare" role="img" aria-label="Escolaridade média de jovens de 18 a 29 anos: 10,6 anos no quarto mais pobre e 13,5 anos no quarto mais rico.">
+            <div class="bar-row">
+              <span>¼ mais pobre</span>
+              <div class="bar-track"><span class="data-bar" style="--bar: 70.66%"></span></div>
+              <strong>10,6</strong>
+            </div>
+            <div class="bar-row">
+              <span>¼ mais rico</span>
+              <div class="bar-track"><span class="data-bar" style="--bar: 90%"></span></div>
+              <strong>13,5</strong>
+            </div>
+            <small>anos de estudo · pessoas de 18 a 29 anos</small>
+          </div>
+        </div>
+      </section>
+
+      <aside class="pullquote section-dark section-reveal" aria-label="Síntese da reportagem">
+        <p>Quando a renda só cobre o básico, planejamento não produz margem por decreto.</p>
+        <span>síntese editorial sustentada pelos dados da pesquisa</span>
+      </aside>
+
+      <section class="chapter income-chapter section-ink" id="renda" aria-labelledby="renda-title">
+        <div class="chapter-head section-reveal">
+          <p class="chapter-number">Capítulo / 02</p>
+          <h2 id="renda-title">O destino da renda começa pelo que não pode esperar</h2>
+          <p class="chapter-intro">Alimentação, moradia, transporte e contas básicas absorvem primeiro. O que sobra precisa dar conta do inesperado — quando sobra.</p>
+        </div>
+
+        <div class="margin-ledger section-reveal">
+          <div class="ledger-sticky">
+            <p class="eyebrow">A anatomia da margem</p>
+            <h3>Mais renda não encontra o mesmo destino em todas as casas.</h3>
+            <p>PMC e PMP observam o que acontece com um <em>acréscimo</em> de renda, não com o salário inteiro.</p>
+          </div>
+          <div class="ledger-flow">
+            <div class="ledger-item">
+              <span>01</span>
+              <div><h4>Propensão Marginal a Consumir</h4><p>A PMC é a parcela da renda adicional usada no consumo. Para quem tem necessidades represadas, um valor extra tende a pagar comida, aluguel ou contas atrasadas.</p></div>
+            </div>
+            <div class="ledger-item">
+              <span>02</span>
+              <div><h4>Propensão Marginal a Poupar</h4><p>A PMP é a parcela da renda adicional poupada. Ela tende a crescer quando necessidades básicas já estão cobertas e existe capacidade de formar reserva.</p></div>
+            </div>
+            <div class="ledger-item alert">
+              <span>20%</span>
+              <div><h4>Nem uma semana de despesas</h4><p>Entre pessoas com renda familiar de até dois salários mínimos, 20% disseram que não cobririam uma semana após perder a principal fonte de renda.</p><p class="source">Fonte: Banco Central, Relatório de Cidadania Financeira 2025.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chapter consumption-chapter section-light" id="consumo" aria-labelledby="consumo-title">
+        <div class="chapter-head section-reveal">
+          <p class="chapter-number">Capítulo / 03</p>
+          <h2 id="consumo-title">Comprar também pode parecer uma forma de pertencer</h2>
+          <p class="chapter-intro">Publicidade e redes sociais ligam produtos a sucesso, beleza e reconhecimento. A escolha continua sendo pessoal — mas não nasce fora da cultura e das relações sociais.</p>
+        </div>
+
+        <div class="culture-strip section-reveal" aria-hidden="true">
+          <span>VEJA</span><span>DESEJE</span><span>COMPARE</span><span>REPITA</span><span>PERTENÇA?</span>
+        </div>
+
+        <div class="concept-flow section-reveal">
+          <div class="concept-intro">
+            <p class="eyebrow">Dicionário em contexto</p>
+            <h3>Conceitos para ler o cotidiano</h3>
+          </div>
+          <dl class="concept-list">
+            <div>
+              <dt>Indústria Cultural</dt>
+              <dd>Em Adorno e Horkheimer, a cultura produzida em massa participa da lógica do mercado e difunde padrões de comportamento. Nas redes, tendências repetidas podem associar produtos à aceitação.</dd>
+            </div>
+            <div>
+              <dt>Consumo compensatório</dt>
+              <dd>A compra pode aliviar momentaneamente frustração ou insegurança sem resolver sua origem. O fenômeno não é exclusivo de pessoas de baixa renda, mas o impacto pesa mais em um orçamento já comprometido.</dd>
+            </div>
+            <div>
+              <dt>Reprodução das desigualdades de classe</dt>
+              <dd>Condições sociais e familiares distribuem de modo desigual educação, tempo, repertório e redes de apoio. Assim, o ponto de partida influencia as possibilidades de uma trajetória diferente.</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="debt-section section-reveal">
+          <div class="debt-definition">
+            <p class="eyebrow">Dívida ≠ inadimplência</p>
+            <p><strong>Dívida</strong> é uma obrigação financeira, como compra parcelada ou empréstimo. <strong>Inadimplência</strong> ocorre quando o pagamento está em atraso. O crédito pode financiar consumo, mas também necessidades básicas e imprevistos.</p>
+          </div>
+          <div class="debt-visual" role="img" aria-label="Em julho de 2026, 82 por cento das famílias tinham alguma dívida e 29,8 por cento tinham pagamentos em atraso.">
+            <div class="debt-ring" style="--percentage:82"><span><strong class="metric" data-count="82" data-decimals="0" data-suffix="%">82%</strong>com alguma dívida</span></div>
+            <div class="debt-ring late" style="--percentage:29.8"><span><strong class="metric" data-count="29.8" data-decimals="1" data-suffix="%">29,8%</strong>com atraso</span></div>
+            <p class="source">Fonte: Agência Brasil, pesquisa Peic/CNC, julho de 2026.</p>
+          </div>
+        </div>
+
+        <div class="income-risk section-reveal">
+          <h3>O atraso pesa de forma desigual</h3>
+          <div class="risk-scale" role="img" aria-label="Inadimplência em julho de 2026: 38,5 por cento entre famílias de até três salários mínimos e 15,1 por cento entre famílias acima de dez salários mínimos.">
+            <div><span>até 3 salários mínimos</span><strong>38,5%</strong><i class="data-bar" style="--bar: 77%"></i></div>
+            <div><span>acima de 10 salários mínimos</span><strong>15,1%</strong><i class="data-bar" style="--bar: 30.2%"></i></div>
+          </div>
+          <p>O contraste não prova que toda dívida venha da pressão para consumir. Ele revela como renda e contexto mudam a capacidade de absorver parcelas, juros e imprevistos.</p>
+        </div>
+      </section>
+
+      <section class="chapter youth-chapter section-coral" id="juventude" aria-labelledby="juventude-title">
+        <div class="chapter-head section-reveal">
+          <p class="chapter-number">Capítulo / 04</p>
+          <h2 id="juventude-title">Aprender cedo pode abrir espaço — mas o ponto de partida continua desigual</h2>
+        </div>
+
+        <div class="age-chart section-reveal" role="img" aria-label="Inadimplência média do saldo de crédito entre 2016 e 2024, no recorte de renda de até dois salários mínimos: 7,4 por cento entre jovens, 6,1 por cento entre adultos e 4,9 por cento entre idosos.">
+          <div class="age-column young"><span class="data-bar" style="--bar: 100%"></span><strong>7,4%</strong><small>15–29<br>jovens</small></div>
+          <div class="age-column adult"><span class="data-bar" style="--bar: 82.43%"></span><strong>6,1%</strong><small>30–59<br>adultos</small></div>
+          <div class="age-column older"><span class="data-bar" style="--bar: 66.21%"></span><strong>4,9%</strong><small>60+<br>idosos</small></div>
+          <div class="age-caption"><p>média do saldo de crédito inadimplente</p><p>renda de até 2 salários mínimos · 2016–2024</p><p class="source">Fonte: Banco Central, Relatório de Cidadania Financeira 2025.</p></div>
+        </div>
+
+        <div class="pisa-grid section-reveal">
+          <div class="pisa-lead">
+            <p class="eyebrow">PISA 2022</p>
+            <strong class="metric" data-count="45" data-decimals="0" data-suffix="%">45%</strong>
+            <p>dos estudantes brasileiros de 15 anos ficaram abaixo do nível básico de letramento financeiro.</p>
+          </div>
+          <div class="pisa-points">
+            <strong class="metric" data-count="86" data-decimals="0" data-suffix=" pontos">86 pontos</strong>
+            <p>separaram, em média, estudantes de contextos socioeconomicamente favorecidos e vulneráveis.</p>
+          </div>
+          <div class="family-dialogue">
+            <strong class="metric" data-count="76" data-decimals="0" data-suffix="%">76%</strong>
+            <p>conversavam com os pais ao menos uma vez por mês sobre gastos.</p>
+            <span><b>+23 pontos</b> no desempenho de quem conversava semanal ou mensalmente, em relação a quem nunca conversava, após os ajustes estatísticos do estudo.</span>
+          </div>
+          <p class="source">Fonte: OCDE, PISA 2022, letramento financeiro no Brasil e conversas familiares sobre dinheiro.</p>
+        </div>
+      </section>
+
+      <section class="education-project section-light" id="educacao" aria-labelledby="educacao-title">
+        <div class="section-heading section-reveal">
+          <p class="chapter-number">Capítulo / 05</p>
+          <h2 id="educacao-title">Educação financeira não precisa ser uma ilha no currículo</h2>
+          <p>Um projeto interdisciplinar pode partir de situações reais sem substituir as disciplinas existentes.</p>
+        </div>
+        <div class="subject-map section-reveal">
+          <div><span>Matemática</span><p>juros, inflação, orçamento e custo total</p></div>
+          <div><span>Sociologia + Geografia</span><p>renda, território e desigualdade</p></div>
+          <div><span>História</span><p>formação econômica do país</p></div>
+          <div><span>Literatura + Português</span><p>propaganda, discurso e persuasão</p></div>
+          <div class="subject-center" aria-hidden="true">vida<br>real</div>
+        </div>
+        <p class="project-close section-reveal">Comparar compra à vista e parcelada, interpretar uma cobrança ou investigar os interesses de uma propaganda transforma teoria em leitura de mundo. O objetivo não é afirmar que todo problema financeiro se resolve gastando menos.</p>
+      </section>
+
+      <section class="intervention section-ink" id="intervencao" aria-labelledby="intervencao-title">
+        <div class="section-heading section-reveal">
+          <p class="chapter-number">Proposta / 06</p>
+          <h2 id="intervencao-title">Conhecimento para decidir. Estrutura para poder escolher.</h2>
+        </div>
+        <ol class="intervention-list section-reveal">
+          <li><span>Agente</span><p>Secretarias de Educação, escolas públicas, comunidade escolar e rede local de proteção social.</p></li>
+          <li><span>Ação</span><p>Implementar um programa interdisciplinar contínuo de educação financeira crítica e cidadania econômica.</p></li>
+          <li><span>Meio / modo</span><p>Projetos semestrais com situações do cotidiano, formação docente, rodas de conversa com famílias e análise de crédito, orçamento, publicidade e desigualdade.</p></li>
+          <li><span>Efeito</span><p>Ampliar o letramento financeiro e a capacidade de reconhecer riscos, direitos e pressões de consumo sem individualizar as causas da pobreza.</p></li>
+          <li><span>Detalhamento</span><p>Articular o ensino a encaminhamentos para serviços públicos, programas de permanência escolar e políticas de trabalho digno e renda, acompanhando participação e aprendizagem sem expor a situação financeira das famílias.</p></li>
+        </ol>
+        <p class="intervention-close section-reveal">A proposta enfrenta as duas frentes do problema: oferece instrumentos para decisões mais conscientes e reconhece que autonomia depende de renda, oportunidades e direitos.</p>
+      </section>
+
+      <section class="conclusion section-light" aria-labelledby="conclusion-title">
+        <div class="conclusion-grid section-reveal">
+          <p class="chapter-number">Conclusão / 07</p>
+          <h2 id="conclusion-title">Saber o que fazer não é o mesmo que ter condições de fazer.</h2>
+          <div>
+            <p>A pobreza apareceu aqui como falta de renda, tempo, serviços e oportunidades. Essas condições influenciam a possibilidade de poupar, o risco do crédito e até a maneira como jovens aprendem a lidar com dinheiro.</p>
+            <p>Educação financeira é uma ferramenta importante. Com trabalho digno, renda e políticas públicas, ela pode deixar de ser apenas uma técnica para administrar a escassez e se tornar parte de um caminho de segurança e futuro.</p>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <section class="video-call section-yellow" aria-labelledby="video-title">
+      <div class="video-icon" aria-hidden="true"><span>▶</span></div>
+      <div class="section-reveal">
+        <p class="eyebrow">Para continuar a conversa</p>
+        <h2 id="video-title">Assista ao conteúdo da ONU sobre pobreza multidimensional</h2>
+        <a class="video-link" href="https://bit.ly/onu-multi" target="_blank" rel="noopener noreferrer">
+          Abrir vídeo da ONU <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="sources section-light" id="fontes" aria-labelledby="sources-title">
+      <div class="section-heading section-reveal">
+        <p class="chapter-number">Referências / 08</p>
+        <h2 id="sources-title">Fontes e repertórios</h2>
+      </div>
+      <div class="sources-grid section-reveal">
+        <div><span>Dados públicos</span><p>IBGE — Síntese de Indicadores Sociais; Censo Demográfico 2022; PNAD Contínua; “A Educação no Brasil: entre metas e desigualdades”.</p></div>
+        <div><span>Finanças e crédito</span><p>Banco Central do Brasil — Relatório de Cidadania Financeira 2025. CNC / Peic, dados de julho de 2026, conforme Agência Brasil.</p></div>
+        <div><span>Educação</span><p>OCDE — PISA 2022, letramento financeiro no Brasil e conversas familiares sobre dinheiro.</p></div>
+        <div><span>Consumo e imprensa</span><p>FGV EAESP — pesquisa sobre consumo compensatório. Times Brasil — reportagem mencionada no editorial.</p></div>
+        <div><span>Sociologia</span><p>SOUZA, Jessé. <em>A ralé brasileira</em>, 2009. ADORNO, Theodor W.; HORKHEIMER, Max — conceito de Indústria Cultural.</p></div>
+      </div>
+      <p class="sources-note">As referências são apresentadas conforme o material de pesquisa fornecido. URLs não confirmadas não foram inventadas.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><span>A/</span><p>Além do saldo<br><small>Sociologia aplicada · edição 01</small></p></div>
+    <div class="credits" aria-label="Equipe da publicação">
+      <p><span>Equipe editorial</span>Júlia Watanabe, Lucas Ramos, Lucas Fabiano, Marcella Liberal, Nicolas Vlad e Verena Marostica.</p>
+      <p><span>Conheça a equipe</span><a href="#membros">Ver membros e fotografias ↑</a></p>
+    </div>
+    <a href="#inicio" class="back-top">Voltar ao início ↑</a>
+  </footer>
+</body>
+</html>
