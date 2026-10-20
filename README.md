@@ -1,5 +1,6 @@
 # Revista — Além Do Saldo
 Para acessar a revista, acesse o link [juwata.github.io/Revista-AlemDoSaldo](https://juwata.github.io/Revista-AlemDoSaldo/)
+
 Caso queira ver o vídeo, veja em [youtube.com/watch?v=vHtcNrmzyX](https://www.youtube.com/watch?v=vHtcNrmzyX0)
 
 
